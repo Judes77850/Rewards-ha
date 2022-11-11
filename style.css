@@ -7,22 +7,24 @@ body {
 }
 
 #onClick1 {
-    width: 300px;
-    height: 50px;
+    width: 350px;
+    height: 70px;
     border-radius: 30px;
     font-size: 30px;
     color: rgb(138, 138, 138);
     background-color: rgb(32, 32, 32);
+    border: solid 3px blue;
     margin: 15px;
     margin-top: 100px;
 }
 
 #onClick2 {
-    width: 300px;
-    height: 50px;
+    width: 350px;
+    height: 70px;
     border-radius: 30px;
     font-size: 30px;
     color: rgb(138, 138, 138);
     background-color: rgb(79, 79, 79);
+    border: solid 3px yellow;
     margin: 15px;
 }
