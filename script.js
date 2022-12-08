@@ -1,5 +1,5 @@
 async function start() {
-  for (let i = 50; i < 81; i++) {
+  for (let i = 50; i < 93; i++) {
     let button = document.getElementById("onClick1");
     let link =
       "https://www.bing.com/search?q=bien-joué" +
@@ -11,7 +11,7 @@ async function start() {
 }
 
 async function start2() {
-  for (let i = 0; i < 21; i++) {
+  for (let i = 0; i < 33; i++) {
     let button = document.getElementById("onClick1");
     let link =
       "https://www.bing.com/search?q=bien-joué" +
@@ -27,6 +27,6 @@ async function openLink(url) {
     setTimeout(() => {
       window.open(url, "ABC");
       resolve();
-    }, 1000);
+    }, 800);
   });
 }
