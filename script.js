@@ -27,6 +27,6 @@ async function openLink(url) {
     setTimeout(() => {
       window.open(url, "ABC");
       resolve();
-    }, 800);
+    }, 4000);
   });
 }
