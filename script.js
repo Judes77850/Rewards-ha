@@ -109,8 +109,8 @@ async function start2() {
 async function openLink(url) {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      window.open(url, "ABC");
+      window.open(url, "_blank");
       resolve();
-    }, 2000);
+    }, 1000);
   });
 }
